@@ -1,0 +1,52 @@
+﻿name: bulk_email_app
+description: "A Flutter application for sending bulk emails from spreadsheets."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI and Icons
+  cupertino_icons: ^1.0.8
+  
+  # File handling and Excel reading
+  file_picker: ^8.0.0+1
+  excel: ^4.0.6
+  csv: ^6.0.0
+  
+  # Email sending
+  mailer: ^6.0.1
+  
+  # State management
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  
+  # UI components
+  flutter_colorpicker: ^1.1.0
+  
+  # HTTP requests (for email services)
+  http: ^1.2.2
+  
+  # Path handling
+  path: ^1.9.0
+  
+  # JSON handling
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
